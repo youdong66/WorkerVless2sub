@@ -5,15 +5,15 @@ let mytoken= 'auto';//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认8443，不支持非TLS订阅生成
 let addresses = [
-	'www.visa.com.hk:2096#假装是香港',
-	'icook.tw:2053#假装是台湾',
-	'cloudflare.cfgo.cc:2087#真的是美国',
- 'cloudflare.cfgo.cc:2053#官方优选',
- 'skk.moe:8443#官方优选',
- 'icook.hk:2053#官方优选',
- 'icook.tw:2096#官方优选',
- 'cf.090227.xyz:2087#官方优迭-CM提供',
- 'cfip.x0000occx.tk:2053#官方优进-OTC提供',
+	'www.visa.com.hk:2096',
+	'icook.tw:2053',
+	'cloudflare.cfgo.cc:2087',
+ 'cloudflare.cfgo.cc:2053',
+ 'skk.moe:8443',
+ 'icook.hk:2053',
+ 'icook.tw:2096',
+ 'cf.090227.xyz:2087',
+ 'cfip.x0000occx.tk:2053',
  'www.52ysys.net:2053',
 ];
 
