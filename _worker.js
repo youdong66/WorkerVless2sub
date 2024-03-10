@@ -8,7 +8,7 @@ let addresses = ['www.visa.com.hk:8443','icook.tw:2096','cloudflare.cfgo.cc:8443
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt' //可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt'
 ];
 
 let DLS = 4;//速度下限
@@ -26,6 +26,7 @@ let proxyIPs = [
 	'cdn.xn--b6gac.eu.org',
 	'cdn-all.xn--b6gac.eu.org',
 	'edgetunnel.anycast.eu.org',
+	'www.52ysys.net',
 ];
 let CMproxyIPs = [
 	//{ proxyIP: "proxyip.fxxk.dedyn.io", type: "US" },
