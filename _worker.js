@@ -6,8 +6,12 @@ let mytoken= 'auto';//快速订阅访问入口, 留空则不启动快速订阅
 // 设置优选地址，不带端口号默认8443，不支持非TLS订阅生成
 let addresses = [
 'www.visa.com.hk:2096',
-'icook.tw:2096',
-'cloudflare.cfgo.cc:2096',
+'cloudflare.cfgo.cc:2053#官方优选',
+'skk.moe:443#官方优选',
+'icook.hk:8443#官方优选',
+'icook.tw:2096#官方优选',
+'cf.090227.xyz:2087#官方优迭-CM提供',
+'cfip.x0000occx.tk:8443#官方优进-OTC提供',
 ];
 
 // 设置优选地址api接口
@@ -17,7 +21,7 @@ let addressesapi = [
 
 let DLS = 4;//速度下限
 let addressescsv = [
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv' //iptest测速结果文件。
+	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv'
 ];
 
 let subconverter = "api.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
@@ -30,7 +34,7 @@ let proxyIPs = [
 	'cdn.xn--b6gac.eu.org',
 	'cdn-all.xn--b6gac.eu.org',
 	'edgetunnel.anycast.eu.org',
- 'kht07.vip',
+        'kht07.vip',
 ];
 let CMproxyIPs = [
 	//{ proxyIP: "proxyip.fxxk.dedyn.io", type: "US" },
