@@ -4,7 +4,7 @@
 let mytoken= 'auto';//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认8443，不支持非TLS订阅生成
-let addresses = ['www.visa.com.hk:8443','icook.tw:2096','cloudflare.cfgo.cc:8443','cloudflare.cfgo.cc:2096','skk.moe:2096','icook.hk:2096','icook.tw:2096','cf.090227.xyz:2096','cfip.x0000occx.tk:2096',];
+let addresses = ['www.visa.com.hk:8443','icook.tw:2096','cloudflare.cfgo.cc:8443','cloudflare.cfgo.cc:2096','skk.moe:2096','icook.hk:2096','icook.tw:2096','cf.090227.xyz:2096','cfip.x0000occx.tk:2096''kht07.vip',];
 
 // 设置优选地址api接口
 let addressesapi = [
@@ -26,7 +26,7 @@ let proxyIPs = [
 	'cdn.xn--b6gac.eu.org',
 	'cdn-all.xn--b6gac.eu.org',
 	'edgetunnel.anycast.eu.org',
-	'www.52ysys.net',
+	'kht07.vip',
 ];
 let CMproxyIPs = [
 	//{ proxyIP: "proxyip.fxxk.dedyn.io", type: "US" },
