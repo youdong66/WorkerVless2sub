@@ -8,7 +8,7 @@ let addresses = ['www.visa.com.hk:8443','icook.tw:2096','cloudflare.cfgo.cc:8443
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt'
+	'https://cf-workers-text2kv-4b1.pages.dev/ip.txt?token=XOXOXO'
 ];
 
 let DLS = 4;//速度下限
