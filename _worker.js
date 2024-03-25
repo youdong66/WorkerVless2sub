@@ -13,7 +13,7 @@ let addressesapi = [
 
 let DLS = 4;//速度下限
 let addressescsv = [
-	'https://github.com/youdong66/WorkerVless2sub/blob/main/addressescsv.csv'
+	'https://cf-workers-text2kv-4b1.pages.dev/YY.CSV?token=XOXOXO'
 ];
 
 let subconverter = "api.v1.mk"; //在线订阅转换后端，目前使用肥羊的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
