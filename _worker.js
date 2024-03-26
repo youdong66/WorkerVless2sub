@@ -21,7 +21,7 @@ let subconfig = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/conf
 
 let link = '';
 let edgetunnel = 'ed';
-let RproxyIP = 'false';
+let RproxyIP = 'proxyip.fuck.cloudns.biz';
 let proxyIPs = [
 	'cdn.xn--b6gac.eu.org',
 	'cdn-all.xn--b6gac.eu.org',
